@@ -44,7 +44,7 @@ projects in the best possible way, with or without using AI tools.
 
 ## Checklist
 
-> Follow these guidelines to become a high quality, no-slop OSS contributor.
+> Follow these guidelines to become a high quality, no-slop OSS contributor! 🌟
 
 ### ☐ 0. Contribute for the right reasons
 
