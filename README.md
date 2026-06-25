@@ -171,6 +171,8 @@ Signed-off-by: Your Name <youremail@address.here>
 ### ☐ 11. Follow up
 
 - Monitor your PR for feedback and be ready to make changes.
+- Give the reviewers time to respond, don't repetitively follow up - it'd get
+  considered as spamming.
 - Thank reviewers for their time and feedback.
 - If your PR is closed, ask for feedback on how to improve, so you can learn
   from your mistakes.
