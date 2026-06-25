@@ -48,10 +48,10 @@ projects in the best possible way, with or without using AI tools.
 
 ### ☐ 0. Contribute for the right reasons
 
-- Contribute to open source to give back to the community, not to chase
+- Contribute to open source to give back to the community, try not to chase
   vanity metrics like followers or stars.
-- Focus on your own progress rather than competing with others, open source is
-  about collaboration not competition.
+- Compete with your own progress, not with others. Choose collaboration over
+  competition.
 
 ### ☐ 1. Understand the project well
 
@@ -174,7 +174,8 @@ Signed-off-by: Your Name <youremail@address.here>
 - Thank reviewers for their time and feedback.
 - If your PR is closed, ask for feedback on how to improve, so you can learn
   from your mistakes.
-- Celebrate your contribution; open source is a community effort!
+- Celebrate your contribution, appreciate any help you received from other
+  community members; open source is a community effort!
 
 ### ☐ 12. What NOT to do
 
