@@ -191,9 +191,9 @@ Signed-off-by: Your Name <youremail@address.here>
 
 ## Note to project maintainers
 
-You can use this checklist in your project as NOSLOP.md or in your
-CONTRIBUTING.md file. Or you could also share it with others to spread
-awareness.
+You could use this checklist in your project as [`NOSLOP.md`](NOSLOP.md) or as
+part of your existing `CONTRIBUTING.md` file. Or you could also share this repo
+link directly with others.
 
 ## The 5 core open source principles
 
