@@ -48,8 +48,8 @@ projects in the best possible way, with or without using AI tools.
 
 ### ☐ 0. Contribute for the right reasons
 
-- Contribute to open source to give back to the community, try not to chase
-  vanity metrics like followers or stars.
+- Contribute to give back to the community, try not to chase vanity metrics
+  like followers or stars.
 - Compete with your own progress, not with others. Choose collaboration over
   competition.
 
