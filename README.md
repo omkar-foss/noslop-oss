@@ -4,12 +4,12 @@
 > in open source projects.
 
 These days there's so many AI-generated repos and PRs without clear ownership,
-what people call "AI slop". AI seems the main reason for the slop, but some
-cases it's not the _only_ reason. There are cases where new contributors are
-simply unaware of the best practices for contributing. This is quite some gap
-that gets filled with contributors relying solely on AI tools, resulting in
-slop. So awareness about open source best practices is very crucial, and even
-more so now.
+what people call "AI slop". AI use is a reason for the slop, but some cases it's
+not the _only_ reason. There are cases where genuine new (human) contributors
+are simply unaware of the best practices for contributing. Some rely on AI
+tools to fill this gap, resulting in slop. And in some other cases their
+contributions get lost among other bot PRs that the maintainer ignores. So
+awareness about open source best practices is very crucial and even more so now.
 
 This checklist aims at preparing newcomers to start contributing to open source
 projects in the best possible way, with or without using AI tools.
