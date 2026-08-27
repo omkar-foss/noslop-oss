@@ -3,27 +3,27 @@
 > A checklist of no-slop contribution best practices when using AI (or not)
 > in open source projects.
 
-These days there's so many AI-generated repos and PRs without clear ownership,
-what people call "AI slop". AI use is a reason for the slop, but some cases it's
-not the _only_ reason. There are cases where genuine new (human) contributors
-are simply unaware of the best practices for contributing. Some rely on AI
-tools to fill this gap, resulting in slop. And in some other cases their
-contributions get lost among other bot PRs that the maintainer ignores. So
-awareness about open source best practices is very crucial and even more so now.
+These days there are so many AI-generated repos and PRs without clear ownership,
+often referred to as "AI slop". AI use is a reason for the slop, but some cases
+it's not the only reason. Many new, genuine (human) contributors are simply
+unfamiliar with open source workflows and project expectations, and AI tools can
+sometimes amplify those gaps. It results in their contributions getting lost
+among the noise and getting ignored by maintainers.
 
-This checklist aims at preparing newcomers to start contributing to open source
-projects in the best possible way, with or without using AI tools.
+This checklist focuses on best practices that help contributors build trust and
+submit high-quality contributions, whether they use AI or not. It's a checklist
+for becoming the kind of contributor maintainers enjoy reviewing!
 
 ## Index
 
 - [Checklist](#checklist)
-  - [0. Contribute for the right reasons](#-0-contribute-for-the-right-reasons)
+  - [0. Contribute with purpose](#-0-contribute-with-purpose)
   - [1. Understand the project well](#-1-understand-the-project-well)
   - [2. Engage with the project community](#-2-engage-with-the-project-community)
   - [3. Set up your project environment thoroughly](#-3-set-up-your-project-environment-thoroughly)
   - [4. Understand the project's AI policies](#-4-understand-the-projects-ai-policies)
   - [5. Use AI as your tool, not as your replacement](#-5-use-ai-as-your-tool-not-as-your-replacement)
-  - [6. Test and validate](#-6-test-and-validate)
+  - [6. Test, validate and document](#-6-test-validate-and-document)
   - [7. Choose the right issue](#-7-choose-the-right-issue)
   - [8. Starting to work on an issue](#-8-starting-to-work-on-an-issue)
   - [9. Communicate early and often](#-9-communicate-early-and-often)
@@ -31,46 +31,46 @@ projects in the best possible way, with or without using AI tools.
   - [11. Follow up](#-11-follow-up)
   - [12. What NOT to Do](#-12-what-not-to-do)
 - [Note to project maintainers](#note-to-project-maintainers)
-- [The 5 core open source principles](#the-5-core-open-source-principles)
-  - [1. Transparency](#1-transparency)
-  - [2. Community over code](#2-community-over-code)
-  - [3. Process matters](#3-process-matters)
-  - [4. Quality is a team effort](#4-quality-is-a-team-effort)
-  - [5. Patience and persistence](#5-patience-and-persistence)
 - [Contributing](#contributing)
 - [Recommended articles & guides](#recommended-articles--guides)
 - [Closing thoughts](#closing-thoughts)
 - [LICENSE](#license)
+- [AI policy](#ai-policy)
 
 ## Checklist
 
 > Follow these guidelines to become a high quality, no-slop OSS contributor! 🌟
 
-### ☐ 0. Contribute for the right reasons
+### ☐ 0. Contribute with purpose
 
-- Contribute to give back to the community, try not to chase vanity metrics
-  like followers or stars.
+- Contribute with the goal of creating value for the project, whether you're
+  learning, solving a problem, or giving back to the community.
+- Focus on making meaningful contributions rather than optimizing for visibility
+  or metrics.
 - Compete with your own progress, not with others. Choose collaboration over
   competition.
 
 ### ☐ 1. Understand the project well
 
-- Read the project's readme, contributing, and code of conduct
-  files.
+- Read the project's readme, contributing, and code of conduct files.
 - Study the project's goals, architecture, and tech stack.
 - Explore existing issues, discussions, and pull requests to grasp community
   priorities.
+- Read recent pull requests to understand the project's coding style, review
+  expectations, and current development priorities.
 - Check for project-specific guidelines (e.g., design docs, roadmaps, or
   architecture decisions).
 
 ### ☐ 2. Engage with the project community
 
-- Introduce yourself in the project's communication channels
-  (Slack, Discord, mailing lists, etc).
+- If appropriate for the project's community, introduce yourself in its public
+  communication channels (Slack, Discord, mailing lists, etc).
   > **Example:** _Hi! I'm [Name], and I'd like to contribute to [Project]. I'm
   > particularly interested in [specific area]._
 - Ask relevant questions in public forums, and not privately to avoid
   duplicating discussions.
+  - Before asking a question, spend a few minutes searching existing issues,
+    discussions, and documentation.
 - Read first, contribute later i.e. observe community discussions before
   jumping in.
 - Follow the project's communication norms (e.g., response times, tone,
@@ -87,9 +87,10 @@ projects in the best possible way, with or without using AI tools.
 
 - Check if the project has AI contribution policies (e.g. AI disclosure
   requirements).
-  - If none exist, explicitly ask maintainers about their stance on AI tools.
-- Disclose AI usage in your PR/issue without fail, irrespective of whether
-  the project's AI policy demands it.
+- If the project doesn't mention AI usage, avoid assuming it's acceptable.
+  Consider asking maintainers if disclosure or other expectations aren't clear.
+- Preferably disclose AI usage in your PR/issue irrespective of whether the
+  project's AI policy demands it.
 
 ### ☐ 5. Use AI as your tool, not as your replacement
 
@@ -101,13 +102,17 @@ projects in the best possible way, with or without using AI tools.
   - Reviewing it line-by-line.
   - Testing it thoroughly.
   - Modifying it to fit the project's style.
+- Make sure you can explain every change you submit, whether it was written by
+  you or assisted by AI.
 
-### ☐ 6. Test and validate
+### ☐ 6. Test, validate and document
 
 - Run the project's test suite and ensure no errors.
 - Write new tests for your changes.
 - Manually verify your changes work as intended.
 - If using AI-generated tests, review them carefully for edge cases.
+- Update documentation, examples, or changelog entries if your changes
+  affect users.
 
 ### ☐ 7. Choose the right issue
 
@@ -125,7 +130,8 @@ projects in the best possible way, with or without using AI tools.
   PRs for it. In case of existing PRs:
   - If any of those PRs are actively being updated, don't pick the issue as
     it could lead to duplicate effort. Find another issue to work on.
-  - If all of those PRs are inactive, then probably you could pick up the issue.
+  - If all those PRs are inactive, then you could pick up the issue after
+    confirming with maintainers.
 - Comment on the issue and confirm with the maintainers before starting work
   to avoid duplication.
 
@@ -134,21 +140,26 @@ projects in the best possible way, with or without using AI tools.
 
 ### ☐ 9. Communicate early and often
 
-- Ask for feedback on your solution before submitting a PR.
+- For larger changes, ask for feedback on your proposed approach before
+  opening a PR.
+- Be prepared for your proposed solution to be declined. Not every good idea
+  aligns with a project's roadmap.
 - Document your thought process in the issue/PR.
 - Be responsive to feedback and iterate.
 
 ### ☐ 10. Submitting your contribution
 
 - If the project has a pull request template, follow it thoroughly.
+- Keep your pull request focused on a single logical change whenever possible.
 - Create a new branch for your changes (e.g., `fix/issue-123`).
 - Write clear, descriptive commit messages.
   - Follow the project's conventions (e.g., `Fix #123: [description]`).
-  - If AI tools are used, disclose AI use in your commit description either with
-    `Assisted-by` or `Co-authored-by`.
-  - Provide DCO sign-off in your commits using `Signed-off-by`.
+  - If you used AI tools and if project encourages commit-level AI disclosure,
+    use the project's preferred format (e.g. `Assisted-by` or `Co-authored-by`).
+  - If project recommends DCO sign-off, provide one in your commits using
+    `Signed-off-by`.
 
-> **Example DCO sign-off along with AI disclosure in commit:**
+> **Example DCO sign-off along with AI disclosure with Assisted-By in commit:**
 
 ```git
 Improve error handling in user authentication module
@@ -171,8 +182,8 @@ Signed-off-by: Your Name <youremail@address.here>
 ### ☐ 11. Follow up
 
 - Monitor your PR for feedback and be ready to make changes.
-- Give the reviewers time to respond, don't repetitively follow up - it'd get
-  considered as spamming.
+- Give the reviewers time to respond, avoid repeatedly asking for updates (e.g.
+  every few hours).
 - Thank reviewers for their time and feedback.
 - If your PR is closed, ask for feedback on how to improve, so you can learn
   from your mistakes.
@@ -186,52 +197,14 @@ Signed-off-by: Your Name <youremail@address.here>
 - Do not ignore community guidelines or communication norms.
 - Do not submit large changes without prior discussion and approval.
 - Do not spam the issue tracker or PR queue with low-quality contributions.
-- Do not assume AI tools can replace human collaboration; engage with the
-  community.
+- Do not rely on AI in place of understanding the codebase or engaging with
+  the community.
 
 ## Note to project maintainers
 
-You could use this checklist in your project as [`NOSLOP.md`](NOSLOP.md) or as
-part of your existing `CONTRIBUTING.md` file. Or you could also share this repo
-link directly with others.
-
-## The 5 core open source principles
-
-These are the core principles upon which this checklist is based.
-
-### 1. Transparency
-
-> **The more transparent the process, the easier it is for others to
-> contribute.**
-
-Document your process, share reasoning and disclose AI usage.
-
-### 2. Community over code
-
-> **A healthy project is built on relationships, not just code.**
-
-Work together with other community members to enhance collaboration and ensure
-project and community well-being. Community health is primary, code is
-secondary.
-
-### 3. Process matters
-
-> **Good processes make it easy to do the right thing.**
-
-Follow the project's contribution guidelines, even when using AI tools.
-
-### 4. Quality is a team effort
-
-> **No one person or tool can ensure quality, it's a community responsibility.**
-
-Strive to work towards quality rather than quantity. Treat AI-generated code as
-a draft, not a final submission.
-
-### 5. Patience and persistence
-
-> **Open source is a marathon, not a sprint.**
-
-Iterate, learn from feedback, and keep improving.
+Projects are welcome to adopt this checklist as [`NOSLOP.md`](NOSLOP.md),
+incorporate parts of it into `CONTRIBUTING.md`, or simply share this repository
+with contributors.
 
 ## Contributing
 
@@ -248,10 +221,15 @@ should abide by [this code of conduct](CODE_OF_CONDUCT.md).
 
 ## Closing thoughts
 
-Remember, open source is about people, and not just about churning out code. The
-goal is to build trust, foster community, and create maintainable software
-together.
+Open source succeeds through people as much as code. Building trust,
+communicating clearly, and collaborating well are just as important as
+writing software.
 
 ## License
 
 [![CC0 Public domain. This work is free of known copyright restrictions.](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](LICENSE)
+
+## AI policy
+
+This project follows a strict no-AI policy and does not accept contributions with AI/LLM use in any form.
+
